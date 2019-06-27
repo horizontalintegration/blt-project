@@ -1,6 +1,6 @@
-# BLT Project
+# Horizontal Integration BLT Project
 
-This is a Composer-based installer for a Drupal 8 project utilizing [BLT](https://github.com/acquia/blt).
+This is a Composer-based installer for a Drupal 8 project utilizing [BLT](https://github.com/acquia/blt) that has been customized for Horizontal Integration.
 
 ## Get Started
 
@@ -10,11 +10,11 @@ To create a new Drupal 8 project with BLT included, follow instructions for [cre
 
 Tags of blt-project will build a new project using the latest stable tag from BLT. E.g.,
 
-`composer create-project acquia/blt-project:^10.0.0-alpha1 --no-interaction my-project`
+`composer create-project horizontalintegration/blt-project --no-interaction my-project`
 
 The 10.x branch of blt-project will build a new project using the 10.x branch of BLT. E.g.,
 
-`composer create-project acquia/blt-project:10.x-dev --no-interaction my-project`
+`composer create-project horizontalintegration/blt-project:10.x-dev --no-interaction my-project`
 
 ## Contributing
 
